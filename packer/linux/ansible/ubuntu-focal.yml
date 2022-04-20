@@ -15,6 +15,6 @@
     - users
     - agent
     - helm
-    - dev-tools
+    - dev_tools
     - vault
     - cleanup
