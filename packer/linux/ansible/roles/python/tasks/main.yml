@@ -4,3 +4,12 @@
     src: "/usr/bin/python3"
     path: "/usr/bin/python"
     state: link
+
+- name: Install pip3 tools
+  apt:
+    pkg:
+      - python3-pip
+      - build-essential
+      - libssl-dev
+      - libffi-dev
+    update_cache: yes
